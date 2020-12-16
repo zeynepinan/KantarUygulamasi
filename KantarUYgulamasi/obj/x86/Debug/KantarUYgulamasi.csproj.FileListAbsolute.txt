@@ -1,0 +1,15 @@
+C:\Users\Zeynep İnan\Source\Repos\KantarUYgulamasi\KantarUYgulamasi\bin\x86\Debug\KantarUYgulamasi.exe.config
+C:\Users\Zeynep İnan\Source\Repos\KantarUYgulamasi\KantarUYgulamasi\bin\x86\Debug\KantarUYgulamasi.exe
+C:\Users\Zeynep İnan\Source\Repos\KantarUYgulamasi\KantarUYgulamasi\bin\x86\Debug\KantarUYgulamasi.pdb
+C:\Users\Zeynep İnan\Source\Repos\KantarUYgulamasi\KantarUYgulamasi\obj\x86\Debug\KantarUYgulamasi.csprojResolveAssemblyReference.cache
+C:\Users\Zeynep İnan\Source\Repos\KantarUYgulamasi\KantarUYgulamasi\obj\x86\Debug\KantarUYgulamasi.FmCikis.resources
+C:\Users\Zeynep İnan\Source\Repos\KantarUYgulamasi\KantarUYgulamasi\obj\x86\Debug\KantarUYgulamasi.FmGiris.resources
+C:\Users\Zeynep İnan\Source\Repos\KantarUYgulamasi\KantarUYgulamasi\obj\x86\Debug\KantarUYgulamasi.FmKullanici.resources
+C:\Users\Zeynep İnan\Source\Repos\KantarUYgulamasi\KantarUYgulamasi\obj\x86\Debug\KantarUYgulamasi.FmHome.resources
+C:\Users\Zeynep İnan\Source\Repos\KantarUYgulamasi\KantarUYgulamasi\obj\x86\Debug\KantarUYgulamasi.FmRapor.resources
+C:\Users\Zeynep İnan\Source\Repos\KantarUYgulamasi\KantarUYgulamasi\obj\x86\Debug\KantarUYgulamasi.FmYeni.resources
+C:\Users\Zeynep İnan\Source\Repos\KantarUYgulamasi\KantarUYgulamasi\obj\x86\Debug\KantarUYgulamasi.Properties.Resources.resources
+C:\Users\Zeynep İnan\Source\Repos\KantarUYgulamasi\KantarUYgulamasi\obj\x86\Debug\KantarUYgulamasi.csproj.GenerateResource.cache
+C:\Users\Zeynep İnan\Source\Repos\KantarUYgulamasi\KantarUYgulamasi\obj\x86\Debug\KantarUYgulamasi.csproj.CoreCompileInputs.cache
+C:\Users\Zeynep İnan\Source\Repos\KantarUYgulamasi\KantarUYgulamasi\obj\x86\Debug\KantarUYgulamasi.exe
+C:\Users\Zeynep İnan\Source\Repos\KantarUYgulamasi\KantarUYgulamasi\obj\x86\Debug\KantarUYgulamasi.pdb

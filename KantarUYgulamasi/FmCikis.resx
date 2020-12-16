@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="kantarDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="kantarDataSetBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>145, 17</value>
+  </metadata>
+  <metadata name="kamyonBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>352, 17</value>
+  </metadata>
+  <metadata name="kamyonTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>526, 17</value>
+  </metadata>
+  <metadata name="kamyonBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="kantarDataSet2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>694, 17</value>
+  </metadata>
+  <metadata name="kantarDataSet2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>694, 17</value>
+  </metadata>
+  <metadata name="kamyonTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>197, 56</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAABGdBTUEAALGPC/xhBQAAAGZQTFRF////
+        bG1tYmNikpKS6+vrZGVlaWpqxcXFX2BgtLW1Z2hohoaG29vbY2Rk+/v7+Pj4cXJyfH198/Pz0dHR5+fn
+        cHFxh4iIq6ys1dXVvb29pqen4ODglpeX6Ojoy8vLjo+Pnp+fWFlZxxvvcwAACDlJREFUeF7tnWFb2zoM
+        RtNCQhootB0Ddtsx+P9/8rYgcC35TWXHNpRHZ18GJJATJ5YtOWkztPOfTDs07Wp38XPZrdpmvmt+Mrt5
+        M7+g//9MLszw7DHD88cMzx8zPH/M8Pypb3i7vaX/1aG64d26X9/R/6tQ2/By1u3/XdJXNahsuB262WzW
+        DVv6ugJ1DX/1e78Dr7/oO+WpavjnQ3A26//Q94pT0/DRCe4V/6Pvlqai4W5Jcu8sKyVP6hk+tKT2QXtN
+        PylLLcPNeiAxx7Da0E9LUsnwEAYlXfeXfl6QOoY3bUhwr7i8oS3KUcXwMwxK+mfaphh6w9sbCG2BOAqD
+        kn5BW5VCb3j5ugzTd7QF4L8xwfKBMcIQHWi3oi3CXPhhULIse5fkMFzTFiFur3kYlLTXJWeMhQ03KxkG
+        JUUDY1nDv104SnC67p72yE9Rw5ulTnD/O5ZPtE92chii8eUz2iNEf0V75aag4SK8QwcatlRgzGH4QFv4
+        vIS3H1b3gUH4gf6F9sxLMcN/4TD4FhnEROqd5T/aNyuFDG/XQOL9b+3m9LXPUCLPmMNQnnoUBj9HaF5C
+        w9EVCIxFDO/fcoaSo84EjMa7NntgzGHI939CveXxTAnNqLIHxgJteAWah812t2BWnDswZjDs/ewuCoMi
+        lb/5DRQfaYM8TDbkTfMCuslAH3IHAuM8a2Ccath1ftM8gDAYHhX8C8cUsHUaEw1Z06BWgdlf1OIZA+M0
+        w2HtzV0v4+8s9V2bzCTD1u9FYe84VoVBPW+bqwA3xZD1CCjCsb62YSmLpx6cl0wFuAmG7NpDoxReDb3p
+        WUy/B4mATAW4dEN2AGikyW+o577jMR2OYrMExmRDlqzWzhbeehZ+6HAmkqMAl2rY+3EezPhEYKPoIGI6
+        mk1mCIxphiw3ph6cfIqIQweJ8dBQKJIkw27m/d1w6Sx0MboTEb58JdMDY4ohO7otmiyJDuV4O3HoyilJ
+        NAmGrDoNcoadCApsWixi+s0cnKlpBbh4Q9bBoTDYseMPBHYe08sExmhDVgwDPYRIuASvQX7oJ9M7KcQa
+        srwtW0HyQeuPyGE/IvoiUKmaEhgjDf3eAx4Q/41gkhTYEp2y9AJcnKF/58CLSoTB8Ik4UD4wxhiy3g+V
+        zngBAo0H3hGHDruuxDxjVBt6EQyVzngYRNPiDwJjc/qJT2pgjDD0BzLaAI2mxY5uzndRnjsdesONJ4gG
+        WfxaGllK4+AxHQ4DUwpwekMPbX8wupTGob11UwJjmiFYQSL6dDAtlohDRwW4hGNNMFSHQTAtDiFqh9kC
+        Y4KhemwF2iGMGAaB9o8OjPGG2vHxeBiUyHv4lX7iExsYow1h8o/3h8qlNI5u4P1w+CIX87JxYg21YRCt
+        KB1DLKrJUoCLNNTmGqKW0ji046GYwBhnCAspaWFQog2MEQW4KENtzu/EitIxtPMS/cqUCEN0PsX09OSK
+        0jFYtWd6AU5vqC1Ka1aUjiEOHdULfusCo9pQWzpD4wE96jyjrgCnNXwCtxbPl/0F04IYRLkK/nFNYFQa
+        oom3yHmC8UAkIs+IliAp8ow6Q3gr5AmDEnnt6zqBACrDqNJZHrQFuNOvD9IYahdLTgiDkmwFuNOG6mEF
+        OIRUxKGjJbknAuNJQ23p7A5cRumIsWBaAe6UoXZ4Pz0MStR5xtFHw08YglSZmOeg7nwaXauck42tTBk3
+        hGGQzVXRitLJZAiMo4banCEYVuVAOyjEgXHMUFs6U+cMU+D5regCHDbUl85KCuonZ+jRcGgYevj6wLSc
+        YQri0NHNw6PLO8gwT+ksD+K+h0WTUGAEhrB0xnOGJ0pneRApUhQYeXQ5EDbUlvDeX8ZSHpmsVLbAnqAh
+        vArYCwJUpbM8iDwjGkyKPGPIMHPpLA/80NXVk4AhmqbwLq1oGJSIPKMymglDdUSNKJ3lIXFlCjdUN/7E
+        nGEKaQU4ZqgtnaHxQFnEWjI0MziOLr4hfOqMDfFRT1YaWYADikfRxTPUpl5TSmd56Oa8AIemU5+B8dgQ
+        5Qwzlc7yoA6MH9OpY8PwVS0yPVXDoEQmiIJdwmfP4V2lj4EAkLN0lgeR5AvNbtx58HuaF7GtyLhOKp3l
+        QeYZRcss3VnwDZsH1uIiOfAFYVBysgA3HCWrmWGz9u5bbZakNqJg4kcB710k3PDueMLHq1fal7GURwSw
+        4wJc9/u4iblhc/l5GcqnzkrlDFPgg5CjwDh4DSwMmy2dDVFFLpgzTEHcQR9XX+83jDSkkZC4my/Di7C+
+        jld2L1Jg5I0bMHxrLLmag563+D70Iu90mNmK9VIhw33kD7wr5gwMm5d+LnLfQcNmJ7Y7D8NmITPfYcMQ
+        Z2EYwAwdZlgdMyTM0GGG1TFDwgwdZlgdMyTM0GGG1TFDwgwdZlgdMyTM0GGG1TFDwgwdZlgdMyTM0GGG
+        1TFDwgwdZlgdMyTM0GGG1TFDwgwdZlgdMyTM0JFm2OmgraP4FobtsH64Ps3D9ZDwGMd3MJzrX2+4iH8i
+        9RsYLvmS6zGuop82+nrDE59mzQFv88J8veEQWCw+wmPsA0ffwFB/Fx5YxHY2ZkiYocMMBWbIMEOBGRJm
+        6DBDgRkyzFBghoQZOsxQYIYMMxSYIWGGDjMUmCHDDAVmSJihwwwFZsgwQ4EZEmboMEOBGTK+3nDz7QzZ
+        mysBesOGfrGa0oYz2vEEEYaxb/csbCheAQmIMGwW/bKNAH9AUZBFT/upWKo/MDfGsNk8X8Uw9llhki3t
+        peNZdxPuiTI8S8zw/DHD88cMzx8zPH/M8Pw5GKLPt/wZ7OZNu9pd/Fx2q7YZ2vlPph3+BxLhveOsqSIR
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="kantarDataSet4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>372, 56</value>
+  </metadata>
+  <metadata name="kamyonBindingSource2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>507, 56</value>
+  </metadata>
+  <metadata name="kamyonTableAdapter2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>687, 56</value>
+  </metadata>
+  <metadata name="kamyonBindingSource3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>18, 95</value>
+  </metadata>
+  <metadata name="kantarDataSet8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>862, 56</value>
+  </metadata>
+  <metadata name="kamyonBindingSource3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>18, 95</value>
+  </metadata>
+  <metadata name="kantarDataSet8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>862, 56</value>
+  </metadata>
+  <metadata name="kamyonTableAdapter3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>198, 95</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>42</value>
+  </metadata>
+</root>

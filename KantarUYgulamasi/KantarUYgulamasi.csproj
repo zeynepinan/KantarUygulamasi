@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{36D24E59-B5CD-445D-B0FF-8B08A119E4FF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KantarUYgulamasi</RootNamespace>
+    <AssemblyName>KantarUYgulamasi</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\Desktop\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FmCikis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmCikis.Designer.cs">
+      <DependentUpon>FmCikis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmGiris.Designer.cs">
+      <DependentUpon>FmGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmKullanici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmKullanici.Designer.cs">
+      <DependentUpon>FmKullanici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmHome.Designer.cs">
+      <DependentUpon>FmHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmRapor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmRapor.Designer.cs">
+      <DependentUpon>FmRapor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmYeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmYeni.Designer.cs">
+      <DependentUpon>FmYeni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kantarDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kantarDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kantarDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kantarDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kantarDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kantarDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kantarDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kantarDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kantarDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kantarDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kantarDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kantarDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kantarDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kantarDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kantarDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kantarDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kantarDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kantarDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kantarDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kantarDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kantarDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kantarDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kantarDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kantarDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FmCikis.resx">
+      <DependentUpon>FmCikis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmGiris.resx">
+      <DependentUpon>FmGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmKullanici.resx">
+      <DependentUpon>FmKullanici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmHome.resx">
+      <DependentUpon>FmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmRapor.resx">
+      <DependentUpon>FmRapor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmYeni.resx">
+      <DependentUpon>FmYeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="kantarDataSet.xsc">
+      <DependentUpon>kantarDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="kantarDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kantarDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kantarDataSet.xss">
+      <DependentUpon>kantarDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="kantarDataSet1.xsc">
+      <DependentUpon>kantarDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="kantarDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kantarDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kantarDataSet1.xss">
+      <DependentUpon>kantarDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="kantarDataSet10.xsc">
+      <DependentUpon>kantarDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="kantarDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kantarDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kantarDataSet10.xss">
+      <DependentUpon>kantarDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="kantarDataSet11.xsc">
+      <DependentUpon>kantarDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="kantarDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kantarDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kantarDataSet11.xss">
+      <DependentUpon>kantarDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="kantarDataSet2.xsc">
+      <DependentUpon>kantarDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="kantarDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kantarDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kantarDataSet2.xss">
+      <DependentUpon>kantarDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="kantarDataSet3.xsc">
+      <DependentUpon>kantarDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="kantarDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kantarDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kantarDataSet3.xss">
+      <DependentUpon>kantarDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="kantarDataSet4.xsc">
+      <DependentUpon>kantarDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="kantarDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kantarDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kantarDataSet4.xss">
+      <DependentUpon>kantarDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="kantarDataSet5.xsc">
+      <DependentUpon>kantarDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="kantarDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kantarDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kantarDataSet5.xss">
+      <DependentUpon>kantarDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="kantarDataSet6.xsc">
+      <DependentUpon>kantarDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="kantarDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kantarDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kantarDataSet6.xss">
+      <DependentUpon>kantarDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="kantarDataSet7.xsc">
+      <DependentUpon>kantarDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="kantarDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kantarDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kantarDataSet7.xss">
+      <DependentUpon>kantarDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="kantarDataSet8.xsc">
+      <DependentUpon>kantarDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="kantarDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kantarDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kantarDataSet8.xss">
+      <DependentUpon>kantarDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="kantarDataSet9.xsc">
+      <DependentUpon>kantarDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="kantarDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kantarDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kantarDataSet9.xss">
+      <DependentUpon>kantarDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
